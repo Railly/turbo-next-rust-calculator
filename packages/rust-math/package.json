@@ -1,0 +1,15 @@
+{
+  "name": "@repo/rust-math",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpx wasm-pack build --target web"
+  },
+  "main": "pkg/rust_math.js",
+  "types": "pkg/rust_math.d.ts",
+  "files": [
+    "pkg/rust_math_bg.wasm",
+    "pkg/rust_math.js",
+    "pkg/rust_math.d.ts"
+  ]
+}
