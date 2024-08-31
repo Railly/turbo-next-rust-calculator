@@ -1,4 +1,0 @@
-{
-  "buildCommand": "./vercel-build.sh",
-  "installCommand": "pnpm install --no-frozen-lockfile"
-}
