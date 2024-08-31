@@ -10,6 +10,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
     "@repo/rust-math": "workspace:*",
     "@repo/ui": "workspace:*",
     "class-variance-authority": "^0.7.0",
